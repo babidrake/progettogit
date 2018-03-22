@@ -12,6 +12,7 @@ package provagit;
 public class persona implements personaIF{
     private String nome;
     private String cognome;
+    private String soprannome;
     
     @Override
     public String getNome() {
