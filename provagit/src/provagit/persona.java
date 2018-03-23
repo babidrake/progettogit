@@ -13,6 +13,8 @@ public class persona implements personaIF{
     private String nome;
     private String cognome;
     private String soprannome;
+    private String universita;
+    private String matricola;
     
     @Override
     public String getNome() {
@@ -23,5 +25,13 @@ public class persona implements personaIF{
     public String getCognome() {
         return cognome;
     }
-    
+
+    public String getSoprannome() {
+        return soprannome;
+    }
+
+    public String getUniversita() {
+        return universita;
+    }
+ 
 }
