@@ -12,4 +12,7 @@ package provagit;
 public interface personaIF {
     public String getNome();
     public String getCognome();
+    public String getSoprannome();
+    public String getUniversita();
+    
 }
