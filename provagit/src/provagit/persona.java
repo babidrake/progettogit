@@ -14,6 +14,7 @@ public class persona implements personaIF{
     private String cognome;
     private String soprannome;
     private String universita;
+    private String matricola;
     
     @Override
     public String getNome() {
